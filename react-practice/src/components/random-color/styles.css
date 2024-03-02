@@ -1,0 +1,7 @@
+button {
+  font-weight: normal;
+}
+
+button.selected {
+  font-weight: bold;
+}

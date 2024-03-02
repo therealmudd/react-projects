@@ -31,7 +31,7 @@ function App() {
         onSubmit={(event) => {
           event.preventDefault();
           const input = event.currentTarget.elements.namedItem("test");
-          if (input.value.trim() != "") {
+          if (input && input.value.trim() != "") {
             addTask(input.value.trim());
             input.value = "";
           }

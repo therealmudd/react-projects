@@ -1,0 +1,45 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrapper button {
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.wrapper button.toggled {
+  background: darkblue;
+}
+
+.accordian {
+  width: 500px;
+}
+
+.item {
+  background-color: #333;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+
+.title {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.content {
+  color: white;
+  height: auto;
+}
